@@ -4,14 +4,14 @@
 
 int main()
 {
-  float a,b,c;
-  printf("nhap a");
+  float a;
+  printf("nhap ban kinh:");
   scanf("%f",&a);
-  printf("nhap b");
-  scanf("%f",&b);
-  printf("nhap c");
-  scanf("%f",&c);
-  float tb;
-  tb = (a+b+c)/3;
-  printf("trung binh = %f",tb);
-}
+   
+   float cv,s;
+   cv = a*2*3,14159;
+   s = a*a*3,14159;
+   printf("chu vi : %f",cv);
+   printf("dien tich : %f",s);
+  
+  }
